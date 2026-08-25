@@ -1,0 +1,13 @@
+{
+  "name": "netacuity-client-api-cpp",
+  "builtin-baseline": "39344dff01c5a5a0134caf2624cdd492f05d30ea",
+  "dependencies": [
+    { "name": "libxml2", "default-features": false }
+  ],
+  "features": {
+    "tests": {
+      "description": "Build and run the unit test suite",
+      "dependencies": [ "gtest" ]
+    }
+  }
+}

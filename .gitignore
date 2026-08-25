@@ -1,0 +1,58 @@
+# Build output
+build/
+build-vcpkg/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+
+# Compiled objects and libraries
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.lib
+*.exp
+
+# Test binary
+tests/run_tests
+run_tests
+
+# Example binaries
+examples/testXMLAPI
+
+# Visual Studio
+*.suo
+*.sdf
+*.opensdf
+*.pdb
+*.user
+*.aps
+*.ncb
+*.opt
+*.plg
+*.lastbuildstate
+*.tlog
+**/.vs/
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# macOS
+.DS_Store
+._*
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+Desktop.ini
+*.stackdump
